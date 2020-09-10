@@ -14,7 +14,7 @@ extensions = ["ext.extensionmanager", "ext.api",
 DOCUMENTATION_LINK = "https://zenora-py.github.io"
 
 # Declares the bot prefix and token, taking values from files
-prefix = "t "
+prefix = "zen "
 with open("token.txt") as fp:
     token = fp.read().strip()
 
