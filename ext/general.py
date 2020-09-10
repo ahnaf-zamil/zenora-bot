@@ -75,7 +75,7 @@ Discord.py Version: {discord.__version__}
                 users.append(i)
         embed.set_footer(text=f"Requested by: {ctx.message.author}")
         embed.set_thumbnail(url=self.bot.user.avatar_url)
-        embed.add_field(name="Name:", value=f"Exo", inline=False)
+        embed.add_field(name="Name:", value=f"Zenora", inline=False)
         embed.add_field(
             name="Developed by:",
             value=f":point_right: {self.bot.appinfo.owner} :point_left:",
