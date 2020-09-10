@@ -29,6 +29,7 @@ def run_bot():
         for ext in extensions:
             bot.load_extension(ext)
             print(f"Loaded ext {ext}")
+    bot.load_extension("libneko.extras.superuser")
     bot.run(token)
 
 
